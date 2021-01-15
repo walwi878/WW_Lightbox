@@ -15,14 +15,12 @@
          <div class="container">
             <div class="row" >
                <div class="col-lg-12 text_align_center">
-                  <div class="full large2" id="gallery" data-toggle="modal" data-target="#exampleModal"">
+                  <div class="full large2" id="gallery" data-toggle="modal" data-target="#exampleModal">
                     <p class="large2center">Visual Diary</p>
                     <p class="large"> Here are some of my doodles.
                       <br><br></p>
                       <!-- <input type="image" src="doodles/IMG_20210111_200313.jpg" class="img-responsive" width="250px"  onclick="location.href='code.php';" /> -->
                       <!-- <img id="myImg" src="doodles/IMG_20210111_200313.jpg" alt="This is a test." width="250px"/>  -->
-                  </div>
-                
                         <div class="column"><img src="doodles/IMG_20210111_200338.jpg" width="250px" onclick="openModal();currentSlide(1)"  class="hover-shadow"></div>                        
                         <div class="column"><img src="doodles/IMG_20210111_200404.jpg" width="250px" onclick="openModal();currentSlide(2)"  class="hover-shadow"></div>                        
                         <div class="column"><img src="doodles/IMG_20210111_200421.jpg" width="250px" onclick="openModal();currentSlide(3)"  class="hover-shadow"></div>                       
@@ -86,6 +84,8 @@
                         <div class="column"><img src="doodles/IMG20210111192224.jpg"   width="250px" onclick="openModal();currentSlide(61)" class="hover-shadow"></div>
                         <div class="column"><img src="doodles/IMG20210111191626.jpg"   width="250px" onclick="openModal();currentSlide(62)" class="hover-shadow"></div>
                         
+                  </div>
+                
       
                         <!-- The Modal/Lightbox -->
                         <div id="myModal" class="modal">
@@ -167,8 +167,9 @@
                             
                             <script src="js/lightbox.js"></script>
                             
-                          </div>
-                          <div >  <!-- class="column" -->
+                           <div>  
+                              <!-- class="column" -->
+                          <!-- </div>
                             <img class="demo column" src="doodles/IMG_20210111_200338.jpg" onclick="currentSlide(1)"  style="width:5%">
                             <img class="demo column" src="doodles/IMG_20210111_200404.jpg" onclick="currentSlide(2)"  style="width:5%">
                             <img class="demo column" src="doodles/IMG_20210111_200421.jpg" onclick="currentSlide(3)"  style="width:5%">
@@ -231,7 +232,7 @@
                             <img class="demo column" src="doodles/IMG20210111192207.jpg"   onclick="currentSlide(60)" style="width:5%">
                             <img class="demo column" src="doodles/IMG20210111192224.jpg"   onclick="currentSlide(61)" style="width:5%">
                             <img class="demo column" src="doodles/IMG20210111191626.jpg"   onclick="currentSlide(62)" style="width:5%">
-                          </div>
+                          </div> -->
                         </div>
 
 
